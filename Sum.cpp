@@ -1,4 +1,5 @@
 #include<iostream>
+#include<conio.h>
 
 using namespace std;
 
@@ -17,6 +18,8 @@ int main(){
 	sum = val1 + val2;
 	
 	cout << "Sum of two values: " << sum;
+	
+	getch();
 	
 	return 0;
 }
